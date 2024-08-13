@@ -22,4 +22,4 @@ def remove_background():
     return send_file(io.BytesIO(output_image), mimetype='image/png', as_attachment=True, download_name='output.png')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8000)
